@@ -1,0 +1,130 @@
+.resume_container{
+  width: 80%;
+  margin: 3rem;
+}
+
+
+
+.timeline{
+    background-color: #fff;
+    padding: 1.875rem;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0px 5px 20px 0px rgb(69 67 96 / 10%);;
+
+}
+
+.timeline_item{
+    position: relative;
+    padding-left: 3.125rem;
+    padding-bottom: 3.125rem;
+}
+
+ .timeline_item:last-child{
+    padding-bottom: 0;
+} 
+.timeline_item::before{
+  margin-top: 2rem;
+    content: '';
+    width: 1px;
+    height: 84%;
+    background-color:  hsl(353 , 100% , 65%);
+    position: absolute;
+    left: 0.25rem;
+    top: 0;
+} 
+.icons {
+  margin-left: -3.9rem;
+}
+
+.timeline_date{
+    color: #8b88b1;
+}
+
+.timeline_title{
+    font-size: 1.26rem;
+    margin: 0.5rem 0;
+    
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .resume_container {
+      display: block;
+      width: 100%;
+      margin: 3rem;
+    }
+
+    .awesome{
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      
+      /* gap: 20px; */
+    }
+
+    .awesome > :nth-child(1) {
+      color: var(--black);
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+  
+    .timeline {
+      width: 80vw;
+      margin-left: -3.125rem;
+    }
+  
+    .timeline_item {
+      padding-left: 3.125rem;
+      padding-bottom: 3.125rem;
+    }
+  
+    .timeline_item::before {
+      left: 0.25rem;
+    }
+  
+    
+  }
+  
+  @media screen and (max-width: 768px) {
+    .resume_container {
+      display: block;
+      width: 100%;
+      margin-left: 2.7rem;
+    }
+  
+    .timeline {
+      width: 80%;
+      padding-left: 2.4rem;
+    }
+  
+    .timeline_item {
+      padding-left: 1.875rem;
+      padding-bottom: 1.875rem;
+    }
+  
+    .timeline_item::before {
+      left: 0;
+    }
+  
+    .icons {
+      margin-left: -2.9rem;
+    }
+  }
+  
+  @media screen and (max-width: 350px) {
+    .timeline_item {
+      padding-left: 1.875rem;
+      padding-bottom: 1.875rem;
+    }
+  
+    .timeline_item::before {
+      left: 0;
+    }
+  
+    .timeline .icon-book-open,
+    .timeline .icon-graduation {
+      left: -25px;
+    }
+  }

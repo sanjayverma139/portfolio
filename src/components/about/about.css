@@ -1,0 +1,151 @@
+
+
+.about_container{
+    grid-template-columns: 3fr 9fr;
+}
+
+
+
+.about_boxes{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3.35rem;
+    margin-bottom: 3rem;
+}
+
+.about_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1.5rem;
+}
+
+
+.details{
+    font-size: 1rem;
+}
+
+.about_title {
+    margin: -.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.about_subtitle{
+    font-size: 1.3rem;
+}
+
+
+
+
+@media screen and (max-width:1024px){
+    .section_title_Mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    .about_container{
+      grid-template-columns: 720px;
+      justify-content: center;
+      row-gap: 1.875rem;
+    }
+
+    .about_data{
+        grid-template-rows: 1fr;
+        width: 60%;
+        margin: auto;
+    }
+
+    .about_data::before{
+        border-left: 10px solid  transparent;
+        border-right: 10px solid  transparent;border-bottom: 10px solid #fff;
+        left: 49%;
+        top: -20px;
+
+    }
+
+    .skills_name{
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 1rem;
+        font-weight: var(--font-bold);
+    }
+
+    .skills_number{
+        line-height: 1.82;
+    }
+
+
+    .about_img{
+        justify-self: center;
+    }
+    .about_boxes {
+        
+        column-gap: 3.8rem;
+        margin-top: 3.35rem;
+      }
+      .about_title{
+        width: 80px;
+        font-size: 20px;
+          
+      }
+
+    .about_box{
+        flex-direction: column;
+        
+        row-gap: .5rem;
+        text-align: center;
+    }
+  }
+
+
+
+@media screen and (max-width:768px){
+  
+
+    .about_box{
+        display: flex;
+        flex-direction: column;
+        row-gap: .5rem;
+        text-align: center;
+    }
+
+    .about_boxes{
+        display: flex;
+        flex-direction: column;
+        row-gap:  4rem;
+        justify-content: center; 
+        margin-bottom: .2rem;
+    }
+
+
+
+    .about_title {
+        
+        margin-top: 5px;
+        width: 80px;
+        font-size: 30px;
+        justify-content: center;
+        
+      }
+}
+
+/* @media screen and (max-width:576px){
+
+    .about_container{
+        grid-template-columns: 320px;
+    }
+}
+
+@media screen and (max-width:350px){
+
+    .projects_container{
+        grid-template-columns: 1fr;
+    }
+
+    .about_boxes{
+        grid-template-columns: 1fr;
+    }
+} */
