@@ -25,11 +25,7 @@ const Skills = () => {
       <div>
         {/* dark mode */}
         <h2 className="title">Skills</h2>
-        <p>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
-          <br />
-          ispum is simpley dummy text of printing
-        </p>
+       
         <a href={Resume} className="" download>
           <button className="button s-button">Download Resume</button>
         </a>
