@@ -5,6 +5,7 @@ import SwiperCore, { Navigation } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
 import Sidebar from "../../img/sidebar.png";
+import gym from "../../img/gym.png";
 import Ecommerce from "../../img/ecommerce.png";
 import HOC from "../../img/hoc.png";
 import MusicApp from "../../img/musicapp.png";
@@ -48,7 +49,7 @@ const Projects = () => {
         // }}
       >
         <SwiperSlide>
-          <img src={Sidebar} alt="" />
+          <img src={gym} alt="" />
         </SwiperSlide>
         <SwiperSlide>
           <img src={Ecommerce} alt="" />

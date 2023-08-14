@@ -26,9 +26,11 @@ const Skills = () => {
         {/* dark mode */}
         <h2 className="title">Skills</h2>
         <p>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
-          <br />
-          ispum is simpley dummy text of printing
+          I proudly showcase a diverse range of skills that I've cultivated on
+          my journey <br />
+          From designing eye-catching visual narratives that resonate with
+          audiences to <br /> developing robust code that powers seamless
+          interactions
         </p>
         <a href={Resume} className="" download>
           <button className="button s-button">Download Resume</button>
