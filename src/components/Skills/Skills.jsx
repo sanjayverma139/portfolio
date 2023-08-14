@@ -25,10 +25,10 @@ const Skills = () => {
       <div>
         {/* dark mode */}
         <h2 className="title">Skills</h2>
-        <p>
-          I proudly showcase a diverse range of skills that I've cultivated on my journey <br />
-         From designing eye-catching visual narratives that resonate with audiences to <br /> developing robust code that powers seamless interactions
-        
+         <p>
+          I proudly showcase a diverse range of skills that I've cultivated on my journey.
+          <br />
+          From designing eye-catching visual narratives that resonate with <br />audiences, to developing robust code
         </p>
        
         <a href={Resume} className="" download>
