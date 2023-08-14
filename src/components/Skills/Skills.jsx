@@ -25,6 +25,9 @@ const Skills = () => {
       <div>
         {/* dark mode */}
         <h2 className="title">Skills</h2>
+        <p>I proudly showcase a diverse range of skills that I've cultivated on my journey
+        </br>  From designing eye-catching visual narratives that resonate with audiences</br>, to developing robust code that powers seamless interactions
+        </p>
        
         <a href={Resume} className="" download>
           <button className="button s-button">Download Resume</button>
