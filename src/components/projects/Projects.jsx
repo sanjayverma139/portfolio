@@ -6,8 +6,9 @@ import "swiper/css";
 import "swiper/css/navigation";
 import Sidebar from "../../img/sidebar.png";
 import gym from "../../img/gym.png";
+import voxverse from "../../img/voxverse.png";
 import Ecommerce from "../../img/ecommerce.png";
-import HOC from "../../img/hoc.png";
+import icecream from "../../img/icecream.png";
 import MusicApp from "../../img/musicapp.png";
 import { themeContext } from "../../Context";
 
@@ -30,7 +31,7 @@ const Projects = () => {
       {/* slider */}
       <Swiper
         spaceBetween={isTablet ? 140 : isMobile ? 70 : 30}
-        slidesPerView={isMobile ? 1 : isTablet ? 2 : 3}
+        slidesPerView={isMobile ? 2 : isTablet ? 2 : 3}
         grabCursor={true}
         className="portfolio-slider"
         autoplay={{
@@ -52,13 +53,13 @@ const Projects = () => {
           <img src={gym} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Ecommerce} alt="" />
+          <img src={voxverse} alt="" style={{ height: "10.6rem" }} />
         </SwiperSlide>
         <SwiperSlide>
           <img src={MusicApp} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={HOC} alt="" />
+          <img src={icecream} alt="" style={{ height: "10.8rem" }} />
         </SwiperSlide>
       </Swiper>
     </div>
