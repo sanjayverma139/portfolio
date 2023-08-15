@@ -3,7 +3,7 @@ import { BsInstagram } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { themeContext } from "../../Context";
-import { motion } from "framer-motion";
+
 import "./Footer.css";
 
 const Footer = () => {
