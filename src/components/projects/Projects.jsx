@@ -48,7 +48,7 @@ const Projects = () => {
         // }}
       >
         <SwiperSlide>
-          <img src={gym} alt="" />
+          <img src={gym } alt="" />
         </SwiperSlide>
         <SwiperSlide>
           <img src={voxverse} alt="" style={{ height: "10.6rem" }} />
