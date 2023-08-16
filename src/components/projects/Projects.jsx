@@ -57,7 +57,7 @@ const Projects = () => {
           <img src={MusicApp} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <a href="">
+          <a href="https://github.com/sanjayverma139/fruit-ice">
             <img src={icecream} alt="" style={{ height: "10.8rem" }} />
           </a>
         </SwiperSlide>
