@@ -75,7 +75,7 @@ const Skills = () => {
             emoji={Humble}
             heading={"Cyber Security"}
             detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
+              "Soc Analyst , Penetration Testing , Bug Bounty"
             }
             color="rgba(252, 166, 31, 0.45)"
           />
