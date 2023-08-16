@@ -10,6 +10,7 @@ import FloatinDiv from "../FloatingDiv/FloatingDiv";
 import { BsInstagram } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import { FaBloggerB } from "react-icons/fa";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
@@ -50,6 +51,10 @@ const Intro = () => {
 
           <a href="https://www.instagram.com/sanjayverma1393/" target="_blank">
             <BsInstagram size={75} />
+          </a>
+
+          <a href="https://adrinotech.blogspot.com/" target="_blank">
+            <FaBloggerB size={78} />
           </a>
         </div>
       </div>
