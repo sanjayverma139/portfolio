@@ -42,22 +42,24 @@ const Projects = () => {
             swiper.slideTo(1); // Slide back to the first slide if last slide is reached
           }
         }}
-        // navigation={{
-        //   prevEl: ".swiper-button-prev",
-        //   nextEl: ".swiper-button-next",
-        // }}
       >
         <SwiperSlide>
-          <img src={gym } alt="" />
+          <a href="https://github.com/sanjayverma139/FitBody-Gym-Website">
+            <img src={gym} alt="" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={voxverse} alt="" style={{ height: "10.6rem" }} />
+          <a href="https://github.com/sanjayverma139/voxverse">
+            <img src={voxverse} alt="" style={{ height: "10.6rem" }} />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
           <img src={MusicApp} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={icecream} alt="" style={{ height: "10.8rem" }} />
+          <a href="">
+            <img src={icecream} alt="" style={{ height: "10.8rem" }} />
+          </a>
         </SwiperSlide>
       </Swiper>
     </div>
