@@ -7,7 +7,7 @@ import "swiper/css/navigation";
 import gym from "../../img/gym.png";
 import voxverse from "../../img/voxverse.png";
 import icecream from "../../img/icecream.png";
-import MusicApp from "../../img/musicapp.png";
+
 import { themeContext } from "../../Context";
 
 // Initialize Swiper navigation
@@ -53,9 +53,7 @@ const Projects = () => {
             <img src={voxverse} alt="" style={{ height: "10.6rem" }} />
           </a>
         </SwiperSlide>
-        <SwiperSlide>
-          <img src={MusicApp} alt="" />
-        </SwiperSlide>
+        
         <SwiperSlide>
           <a href="https://github.com/sanjayverma139/fruit-ice">
             <img src={icecream} alt="" style={{ height: "10.8rem" }} />
